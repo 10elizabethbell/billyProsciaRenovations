@@ -90,14 +90,15 @@ section{padding:64px 0}
 .brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
 .brand b{font:400 20px/1 var(--display);letter-spacing:.01em;white-space:nowrap}
 .brand span{font:600 11px/1 var(--text);letter-spacing:.14em;white-space:nowrap;text-transform:uppercase;color:var(--red);margin-top:5px}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--red)}
 
 /* ---------- Hero ---------- */
 .hero{padding:0;position:relative;background-color:var(--red);background-image:var(--texture);color:var(--on-dark);overflow:hidden}
 .hero-copy{position:relative;z-index:1;display:grid;gap:20px;justify-items:start;padding-top:56px;padding-bottom:64px}
-.hero h1{color:#fff;font-size:clamp(42px,12vw,80px);line-height:1.02;max-width:11ch}
+.hero h1{color:var(--on-dark);font-size:clamp(42px,12vw,80px);line-height:1.02;max-width:11ch}
 /* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
+.hero h1.wait{visibility:hidden}
 .hero h1 .w{display:inline-block;white-space:nowrap}
 .hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
 @keyframes letter-in{to{opacity:1;transform:none}}
@@ -123,8 +124,8 @@ section{padding:64px 0}
 .shots{list-style:none;margin:32px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .shots li:first-child{grid-column:1/-1}
 .shots img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-card);background:var(--field)}
-.note{margin-top:20px;font-size:15px;color:var(--soft)}
-.fb{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--card);color:var(--ink);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display);max-width:520px;box-shadow:0 8px 24px rgba(23,33,49,.08)}
+.note{margin-top:20px;font-size:14px;color:var(--soft)}
+.fb{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:var(--r-card);background:var(--card);color:var(--ink);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display);max-width:520px;box-shadow:0 8px 24px rgba(23,33,49,.08)}
 .fb:hover,.fb:focus-visible{outline:none;box-shadow:0 8px 24px rgba(23,33,49,.08)}
 .fb .lbl{display:flex;align-items:center;gap:14px}
 .fb .lbl svg{width:30px;height:30px;flex:none;color:#1877f2}
@@ -142,7 +143,7 @@ section{padding:64px 0}
 .ask .wrap{display:grid;gap:28px}
 form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
 .field{display:grid;gap:8px;min-width:0}
-.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
 .field legend{margin-bottom:8px}
 .field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
 fieldset{border:0;margin:0;padding:0;min-width:0}
@@ -154,13 +155,13 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
-.chips input:checked+label{background:var(--ink);color:#fff}
-.err{display:none;font-size:15px;color:var(--error)}
+.chips input:checked+label{background:var(--ink);color:var(--on-dark)}
+.err{display:none;font-size:16px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad input[type=text]:focus,.field.bad .chips label{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:14px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600}
 .sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
@@ -169,7 +170,7 @@ form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:2p
 .close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-red-soft)}
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(34px,10vw,56px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.75em;height:.75em;flex:none;color:var(--yellow)}
-.digits{display:block;margin-top:8px;font-size:16px;color:var(--on-red-soft)}
+.digits{display:block;margin-top:8px;font:16px/1.3 var(--text);color:var(--on-red-soft)}
 
 /* ---------- Footer ---------- */
 footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-deep-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
@@ -181,6 +182,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 /* ---------- Floating text circle (one circle, never a bottom bar) ---------- */
 .float{position:fixed;z-index:15;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--ink);box-shadow:0 10px 28px rgba(23,33,49,.3);transform:translateY(120px);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
 .float.on{transform:none}
+html:not(.js) .float{display:none}
 .float svg{width:26px;height:26px}
 .float:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:50%}
 
@@ -275,7 +277,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
       <h2 id="h-crew">The crew at your door.</h2>
       <p class="lede">A bathroom job means we're in your home for a while. We show up when we say we will, treat your house with respect, and haul the old bathroom away ourselves.</p>
     </div>
-    <figure class="rise"><img src="img/crew.webp" width="480" height="600" alt="Two Billy Proscia Renovations crew members in red company shirts, standing by a full dumpster outside a job." loading="lazy" decoding="async"></figure>
+    <figure class="rise"><img src="img/crew.webp" width="480" height="600" alt="Two Billy Proscia Renovations crew members in red company shirts, standing by a full dumpster outside a job." decoding="async"></figure>
   </div>
 </section>
 
@@ -294,15 +296,15 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
 
 <section class="on-paper examples" aria-labelledby="h-ideas">
   <div class="wrap">
-    <h2 id="h-ideas" class="rise">Ideas for your bathroom</h2>
+    <h2 id="h-ideas" class="rise">Ideas for your bathroom.</h2>
     <ul class="shots">
-      <li class="rise"><img src="img/idea-shower.webp" width="640" height="800" alt="Example: a glass walk-in shower with large white tile and grey hexagon floor." loading="lazy" decoding="async"></li>
-      <li class="rise"><img src="img/idea-tub.webp" width="640" height="800" alt="Example: a white tub with green vertical tile and a wood floating vanity." loading="lazy" decoding="async"></li>
-      <li class="rise"><img src="img/idea-vanity.webp" width="640" height="800" alt="Example: a navy double vanity with white wall tile and a black-and-white patterned floor." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-shower.webp" width="960" height="1200" alt="Example: a glass walk-in shower with large white tile and grey hexagon floor." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-tub.webp" width="960" height="1200" alt="Example: a white tub with green vertical tile and a wood floating vanity." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-vanity.webp" width="960" height="1200" alt="Example: a navy double vanity with white wall tile and a black-and-white patterned floor." loading="lazy" decoding="async"></li>
     </ul>
-    <p class="note rise">Example photos to spark ideas. Our real jobs are on Facebook.</p>
+    <p class="note rise">These are example photos, not our jobs.</p>
     <a class="fb rise" href="https://www.facebook.com/BillyBATS333/" rel="noopener">
-      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Click to see our work.</span>
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>See our real jobs on Facebook</span>
       <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
     </a>
   </div>
@@ -323,11 +325,11 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
   <div class="wrap">
     <div class="head rise">
       <p class="eyebrow">Winter is for inside jobs</p>
-      <h2 id="h-ask">Tell us about your bathroom</h2>
+      <h2 id="h-ask">Tell us about your bathroom.</h2>
       <p class="lede">Not sure what you want yet? That's fine. Tell us what's there now.</p>
     </div>
     <form id="bathForm" class="rise" novalidate>
-      <fieldset class="field" id="f-job" aria-describedby="e-job">
+      <fieldset class="field" id="f-job" aria-required="true">
         <legend>What are you thinking?</legend>
         <div class="chips">
           <input type="radio" name="job" id="j1" value="Full remodel"><label for="j1">Full remodel</label>
@@ -341,7 +343,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
       </fieldset>
       <div class="field" id="f-name">
         <label for="name">Your name</label>
-        <input type="text" id="name" name="name" autocomplete="name" maxlength="60" placeholder="First name is fine" aria-describedby="e-name">
+        <input type="text" id="name" name="name" autocomplete="name" maxlength="60" placeholder="First name is fine" aria-required="true">
         <p class="err" id="e-name">Add your name so we know who's texting.</p>
       </div>
       <div class="field">
@@ -362,8 +364,8 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
 <section class="on-red close" aria-labelledby="h-close">
   <div class="wrap">
     <div class="rise">
-      <h2 id="h-close">Billy Proscia Renovations</h2>
-      <p class="who">Call the pros.</p>
+      <h2 id="h-close">Call the pros.</h2>
+      <p class="who">Billy Proscia Renovations</p>
     </div>
     <a class="bigtel rise" href="tel:+17184009675" aria-label="Call 718-400-9675"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>718-400-WORK<span class="digits">That's 718-400-9675</span></span></a>
   </div>
@@ -372,7 +374,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
 
 <footer>
   <div class="wrap">
-    <span>Billy Proscia Renovations · Bathroom renovation · <span class="nw">718-400-9675</span></span>
+    <span>Billy Proscia Renovations · Bathroom renovation</span>
     <nav aria-label="Contact">
       <a href="tel:+17184009675">Call 718-400-WORK</a>
       <a href="https://www.facebook.com/BillyBATS333/" rel="noopener">Facebook</a>
@@ -396,7 +398,6 @@ document.documentElement.classList.add('js');
   var h=document.getElementById('h1');
   if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   var plain=h.innerHTML,i=0,last=null;
-  h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
   function split(node,into){
     [].slice.call(node.childNodes).forEach(function(n){
       if(n.nodeType===3){
@@ -410,9 +411,16 @@ document.documentElement.classList.add('js');
       }else if(n.nodeType===1){var copy=n.cloneNode(false);split(n,copy);into.appendChild(copy)}
     });
   }
-  var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);
-  // once the last letter lands, put the plain heading back so kerning and text selection return
-  if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+  function go(){
+    h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
+    var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);h.classList.remove('wait');
+    // once the last letter lands, put the plain heading back so kerning and text selection return
+    if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+  }
+  // wait for Cal Sans (at most 400ms) so letters don't swap font mid-bounce
+  if(!document.fonts||!document.fonts.load){go();return}
+  h.classList.add('wait');
+  Promise.race([document.fonts.load('80px "Cal Sans"'),new Promise(function(r){setTimeout(r,400)})]).then(go,go);
 })();
 
 /* ===== Service rows pre-select the matching job in the form ===== */
@@ -420,7 +428,7 @@ document.documentElement.classList.add('js');
   [].forEach.call(document.querySelectorAll('[data-job]'),function(a){
     a.addEventListener('click',function(){
       var r=document.querySelector('input[name=job][value="'+a.getAttribute('data-job')+'"]');
-      if(r){r.checked=true;document.getElementById('f-job').classList.remove('bad')}
+      if(r){r.checked=true;var f=document.getElementById('f-job');f.classList.remove('bad');f.removeAttribute('aria-describedby')}
     });
   });
 })();
@@ -429,13 +437,14 @@ document.documentElement.classList.add('js');
 (function(){
   var form=document.getElementById('bathForm');if(!form)return;
   function val(id){return document.getElementById(id).value.trim()}
-  form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&(e.target.type==='radio'||e.target.value.trim()))f.classList.remove('bad')});
-  form.addEventListener('change',function(e){if(e.target.name==='job')document.getElementById('f-job').classList.remove('bad')});
+  // the error text is only described (and announced) while it is showing
+  function mark(fid,eid,bad){var f=document.getElementById(fid);f.classList.toggle('bad',bad);if(bad)f.setAttribute('aria-describedby',eid);else f.removeAttribute('aria-describedby')}
+  form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.id&&f.classList.contains('bad')&&(e.target.type==='radio'||e.target.value.trim()))mark(f.id,f.id.replace('f-','e-'),false)});
+  form.addEventListener('change',function(e){if(e.target.name==='job')mark('f-job','e-job',false)});
   form.addEventListener('submit',function(e){
     e.preventDefault();
     var job=form.querySelector('input[name=job]:checked'),name=val('name'),where=val('where'),notes=val('notes');
-    document.getElementById('f-job').classList.toggle('bad',!job);
-    document.getElementById('f-name').classList.toggle('bad',!name);
+    mark('f-job','e-job',!job);mark('f-name','e-name',!name);
     document.getElementById('name').setAttribute('aria-invalid',name?'false':'true');
     if(!job){document.getElementById('j1').focus();return}
     if(!name){document.getElementById('name').focus();return}

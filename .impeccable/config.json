@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T11:38:58.632Z",
+        "reason": "pitch-site house style: calm-photo-style.md item 2 mandates the faint 135deg band texture (Ellie's chosen default, 2026-10-19)"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T11:39:04.724Z",
+        "reason": "builder triage: detector only counts fixed px UI sizes (11-20px); the hierarchy is carried by clamp()-sized Cal Sans headings at 30-80px, which it does not see"
+      }
+    ]
+  }
+}
