@@ -203,7 +203,8 @@ html:not(.js) .float{display:none}
   .actions .btn{min-width:240px}
   .shots{grid-template-columns:repeat(3,1fr);gap:20px}
   .shots li:first-child{grid-column:auto}
-  .hero h1{max-width:14ch}
+  .hero h1{max-width:none;font-size:clamp(42px,7vw,96px)}
+  .hero h1 .accent{display:block}
 }
 @media (min-width:1024px){
   .crew .wrap{grid-template-columns:1fr 1fr;gap:64px;align-items:center}
@@ -263,7 +264,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
   <div class="wrap hero-copy">
     <p class="eyebrow">Bathroom renovation</p>
     <h1 id="h1">Your new bathroom, <span class="accent">built by the pros.</span></h1>
-    <p class="promise">We treat your home like our own, and leave you <b>a bathroom you're proud to show off.</b></p>
+    <p class="promise">We treat your home like our own, and leave you <b>a&nbsp;bathroom you're proud to show off.</b></p>
     <div class="actions">
       <a class="btn btn-primary" href="#ask">Plan my bathroom</a>
       <a class="btn btn-ghost" data-sms href="sms:+17184009675?&amp;body=Hi%20Billy%20Proscia%20Renovations%2C%20I%20found%20your%20website.%20I'm%20thinking%20about%20my%20bathroom%3A%20"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text us</a>
@@ -277,7 +278,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
       <h2 id="h-crew">The crew at your door.</h2>
       <p class="lede">A bathroom job means we're in your home for a while. We show up when we say we will, treat your house with respect, and haul the old bathroom away ourselves.</p>
     </div>
-    <figure class="rise"><img src="img/crew.webp" width="480" height="600" alt="Two Billy Proscia Renovations crew members in red company shirts, standing by a full dumpster outside a job." decoding="async"></figure>
+    <figure class="rise"><img src="img/crew.webp" width="576" height="720" alt="Two Billy Proscia Renovations crew members in red company shirts, standing by a full dumpster outside a job." decoding="async"></figure>
   </div>
 </section>
 
@@ -298,9 +299,9 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
   <div class="wrap">
     <h2 id="h-ideas" class="rise">Ideas for your bathroom.</h2>
     <ul class="shots">
-      <li class="rise"><img src="img/idea-shower.webp" width="960" height="1200" alt="Example: a glass walk-in shower with large white tile and grey hexagon floor." loading="lazy" decoding="async"></li>
-      <li class="rise"><img src="img/idea-tub.webp" width="960" height="1200" alt="Example: a white tub with green vertical tile and a wood floating vanity." loading="lazy" decoding="async"></li>
-      <li class="rise"><img src="img/idea-vanity.webp" width="960" height="1200" alt="Example: a navy double vanity with white wall tile and a black-and-white patterned floor." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-shower.webp" width="800" height="1000" alt="Example: a glass walk-in shower with large white tile and grey hexagon floor." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-tub.webp" width="800" height="1000" alt="Example: a white tub with green vertical tile and a wood floating vanity." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-vanity.webp" width="800" height="1000" alt="Example: a navy double vanity with white wall tile and a black-and-white patterned floor." loading="lazy" decoding="async"></li>
     </ul>
     <p class="note rise">These are example photos, not our jobs.</p>
     <a class="fb rise" href="https://www.facebook.com/BillyBATS333/" rel="noopener">
@@ -314,7 +315,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
   <div class="wrap">
     <h2 id="h-how" class="rise">How it <span class="accent">works.</span></h2>
     <ol class="steps">
-      <li class="rise"><div><b>Tell us about your bathroom.</b><span>What's there now and what you'd like instead.</span></div></li>
+      <li class="rise"><div><b>Tell us what you want.</b><span>What's there now and what you'd like instead.</span></div></li>
       <li class="rise"><div><b>We come and see it.</b><span>We measure, talk it through with you, and give you a price.</span></div></li>
       <li class="rise"><div><b>We build it and clean up.</b><span>You get the bathroom you picked, and the mess leaves with us.</span></div></li>
     </ol>
@@ -324,7 +325,7 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
 <section class="on-paper ask" id="ask" aria-labelledby="h-ask">
   <div class="wrap">
     <div class="head rise">
-      <p class="eyebrow">Winter is for inside jobs</p>
+      <p class="eyebrow">Takes a minute</p>
       <h2 id="h-ask">Tell us about your bathroom.</h2>
       <p class="lede">Not sure what you want yet? That's fine. Tell us what's there now.</p>
     </div>
@@ -374,9 +375,8 @@ FORM: calm band system; plain textured red hero because the only real photo (a s
 
 <footer>
   <div class="wrap">
-    <span>Billy Proscia Renovations · Bathroom renovation</span>
+    <span>Billy Proscia Renovations · Bathroom renovation <span class="nw">· 718-400-9675</span></span>
     <nav aria-label="Contact">
-      <a href="tel:+17184009675">Call 718-400-WORK</a>
       <a href="https://www.facebook.com/BillyBATS333/" rel="noopener">Facebook</a>
     </nav>
   </div>
