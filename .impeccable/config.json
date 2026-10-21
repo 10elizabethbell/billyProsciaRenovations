@@ -20,6 +20,42 @@
         ],
         "createdAt": "2026-10-21T11:39:04.724Z",
         "reason": "builder triage: detector only counts fixed px UI sizes (11-20px); the hierarchy is carried by clamp()-sized Cal Sans headings at 30-80px, which it does not see"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "createdAt": "2026-10-21T11:47:30.879Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (focus-ring corner)"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1877f2",
+        "createdAt": "2026-10-21T11:47:30.944Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (Facebook brand blue on the FB link icon)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "createdAt": "2026-10-21T11:47:31.007Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (promise max / desktop wordmark / desktop H1 max / desktop step titles)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "24px",
+        "createdAt": "2026-10-21T11:47:31.067Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (promise max / desktop wordmark / desktop H1 max / desktop step titles)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "96px",
+        "createdAt": "2026-10-21T11:47:31.128Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (promise max / desktop wordmark / desktop H1 max / desktop step titles)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "22px",
+        "createdAt": "2026-10-21T11:47:31.190Z",
+        "reason": "builder triage: shipped value that DESIGN.md (derived after the build) left off its scale; intentional, not drift (promise max / desktop wordmark / desktop H1 max / desktop step titles)"
       }
     ]
   }
