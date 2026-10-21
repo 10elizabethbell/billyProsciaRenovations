@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Billy Proscia Renovations · Bathroom renovation · 718-400-WORK</title>
+<meta name="description" content="Bathroom renovation by Billy Proscia Renovations. Call the pros: 718-400-WORK (718-400-9675).">
+<meta name="theme-color" content="#f6f5f2">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Billy Proscia Renovations · Your new bathroom, built by the pros.">
+<meta property="og:description" content="Bathroom renovation. Call the pros: 718-400-WORK.">
+<meta property="og:url" content="https://10elizabethbell.github.io/billyProsciaRenovations/">
+<meta property="og:image" content="https://10elizabethbell.github.io/billyProsciaRenovations/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap">
+<style>
+/* ---------- Tokens ---------- */
+:root{
+  /* warm paper, the crew's shirt red, deep navy, one hard-hat yellow */
+  --paper:#f6f5f2;       /* page ground */
+  --card:#ffffff;
+  --field:#ebe8e3;       /* inputs and chips on the white form card */
+  --ink:#172131;         /* headings, text on yellow */
+  --body:#2b3442;        /* running text on light */
+  --soft:#4d5664;        /* secondary text on light */
+  --red:#9c1d1a;         /* shirt red, deepened: hero, close */
+  --deep:#172131;        /* services, how it works, footer (line texture) */
+  --on-dark:#fbf8f6;
+  --on-red-soft:#f6dcd8;
+  --on-deep-soft:#cfd6e2;
+  --yellow:#ffc629;      /* fills only; text on it is --ink */
+  --yellow-2:#ffd65c;
+  --yellow-ink:#8a5a00;  /* yellow as text on light (5.4:1) */
+  --line:rgba(23,33,49,.12);
+  --focus:#9c1d1a;       /* form hover/focus outline, distinct from the yellow fill */
+  --error:#b3261e;
+  --texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);
+  --display:"Cal Sans","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --text:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --r-card:24px;--r-field:10px;--pill:999px;
+  --gutter:20px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;font:16px/1.7 var(--text);color:var(--body);background:var(--paper)}
+::selection{background:var(--yellow);color:var(--ink)}
+img,svg{display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+.on-red :focus-visible,.on-deep :focus-visible,.hero :focus-visible,footer :focus-visible{outline-color:var(--yellow)}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:400;line-height:1.08;letter-spacing:-.005em;color:var(--ink);text-wrap:balance}
+h2{font-size:clamp(30px,7.6vw,48px)}
+p{margin:0}
+
+/* ---------- Bands ---------- */
+section{padding:64px 0}
+.on-paper{background:var(--paper)}
+.on-red{background-color:var(--red);background-image:var(--texture);color:var(--on-red-soft)}
+.on-deep{background-color:var(--deep);background-image:var(--texture);color:var(--on-deep-soft)}
+.on-red h2,.on-deep h2,.on-red h3,.on-deep h3{color:var(--on-dark)}
+.accent{color:var(--yellow-ink)}
+.on-red .accent,.on-deep .accent,.hero .accent{color:var(--yellow)}
+.head{display:grid;gap:16px;justify-items:start;max-width:640px}
+.lede{font-size:clamp(17px,4.6vw,19px);color:var(--soft);max-width:40ch}
+.on-deep .lede{color:var(--on-deep-soft)}
+
+/* Eyebrow: a few key headings only. A label, not a button. */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:500 14px/1 var(--text);letter-spacing:.02em;color:var(--ink);background:rgba(23,33,49,.06);padding:9px 14px;border-radius:var(--pill)}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--yellow)}
+.hero .eyebrow,.on-red .eyebrow,.on-deep .eyebrow{color:var(--on-dark);background:rgba(255,255,255,.13)}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}
+.btn:active{transform:scale(.98)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-primary{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}
+.btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(251,248,246,.75)}
+
+/* ---------- Header ---------- */
+.top{background:var(--paper);color:var(--ink)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding-top:max(8px,env(safe-area-inset-top))}
+.brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
+.brand b{font:400 20px/1 var(--display);letter-spacing:.01em;white-space:nowrap}
+.brand span{font:600 11px/1 var(--text);letter-spacing:.14em;white-space:nowrap;text-transform:uppercase;color:var(--red);margin-top:5px}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel svg{width:18px;height:18px;flex:none;color:var(--red)}
+
+/* ---------- Hero ---------- */
+.hero{padding:0;position:relative;background-color:var(--red);background-image:var(--texture);color:var(--on-dark);overflow:hidden}
+.hero-copy{position:relative;z-index:1;display:grid;gap:20px;justify-items:start;padding-top:56px;padding-bottom:64px}
+.hero h1{color:#fff;font-size:clamp(42px,12vw,80px);line-height:1.02;max-width:11ch}
+/* H1 bounce-in (after lpmr.co.uk): each letter slides in from 50px right with a slight overshoot, 20ms apart */
+.hero h1 .w{display:inline-block;white-space:nowrap}
+.hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
+@keyframes letter-in{to{opacity:1;transform:none}}
+.promise{font-size:clamp(17px,4.7vw,20px);line-height:1.5;color:var(--on-red-soft);max-width:32ch}
+.promise b{color:var(--on-dark);font-weight:600}
+.actions{display:grid;gap:12px;width:100%;margin-top:4px}
+
+/* ---------- Crew ---------- */
+.crew .wrap{display:grid;gap:32px}
+.crew figure{margin:0;max-width:440px}
+.crew img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-card);background:var(--field)}
+
+/* ---------- Services (rows are links; only the arrow changes) ---------- */
+.rows{list-style:none;margin:32px 0 0;padding:0;display:grid}
+.rows li+li{border-top:1px solid rgba(255,255,255,.12)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:12px 0;text-decoration:none;color:var(--on-dark);font:400 clamp(21px,5.8vw,26px)/1.15 var(--display)}
+.row:hover,.row:focus-visible{outline:none;background:none;box-shadow:none}
+.arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s}
+.arrow svg{width:18px;height:18px}
+.row:focus-visible .arrow{background:var(--yellow);color:var(--ink);outline:3px solid var(--yellow);outline-offset:3px}
+
+/* ---------- Examples ---------- */
+.shots{list-style:none;margin:32px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.shots li:first-child{grid-column:1/-1}
+.shots img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-card);background:var(--field)}
+.note{margin-top:20px;font-size:15px;color:var(--soft)}
+.fb{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--card);color:var(--ink);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display);max-width:520px;box-shadow:0 8px 24px rgba(23,33,49,.08)}
+.fb:hover,.fb:focus-visible{outline:none;box-shadow:0 8px 24px rgba(23,33,49,.08)}
+.fb .lbl{display:flex;align-items:center;gap:14px}
+.fb .lbl svg{width:30px;height:30px;flex:none;color:#1877f2}
+.fb .arrow{background:rgba(23,33,49,.07);color:var(--ink)}
+.fb:focus-visible .arrow{background:var(--yellow);outline:3px solid var(--focus);outline-offset:3px}
+
+/* ---------- How it works ---------- */
+.steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--ink);font:400 20px/1 var(--display)}
+.steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px}
+.steps span{display:block;margin-top:4px}
+
+/* ---------- Form ---------- */
+.ask .wrap{display:grid;gap:28px}
+form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
+.field{display:grid;gap:8px;min-width:0}
+.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field legend{margin-bottom:8px}
+.field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+input[type=text],textarea{width:100%;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--red);transition:border-color .15s}
+textarea{min-height:110px;resize:vertical}
+input::placeholder,textarea::placeholder{color:var(--soft)}
+input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}
+.chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
+.chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
+.chips input:checked+label{background:var(--ink);color:#fff}
+.err{display:none;font-size:15px;color:var(--error)}
+.field.bad .err{display:block}
+.field.bad input[type=text],.field.bad input[type=text]:focus,.field.bad .chips label{border-color:var(--error)}
+form .btn-primary{width:100%}
+form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.after{font-size:15px;color:var(--soft)}
+.sent{color:var(--ink);font-weight:600}
+.sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
+@media (max-width:380px){.chips label{padding:0 14px}}
+
+/* ---------- Close ---------- */
+.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-red-soft)}
+.bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(34px,10vw,56px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
+.bigtel svg{width:.75em;height:.75em;flex:none;color:var(--yellow)}
+.digits{display:block;margin-top:8px;font-size:16px;color:var(--on-red-soft)}
+
+/* ---------- Footer ---------- */
+footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-deep-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
+footer .wrap{display:grid;gap:14px}
+.nw{white-space:nowrap}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 22px}
+footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-dark);text-decoration:none}
+
+/* ---------- Floating text circle (one circle, never a bottom bar) ---------- */
+.float{position:fixed;z-index:15;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--ink);box-shadow:0 10px 28px rgba(23,33,49,.3);transform:translateY(120px);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.float.on{transform:none}
+.float svg{width:26px;height:26px}
+.float:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:50%}
+
+/* ---------- Motion: one fade-up, only for things below the first screen ---------- */
+.js .rise{transition:opacity .4s ease-out,transform .4s ease-out}
+.js .rise.below{opacity:0;transform:translateY(12px)}
+
+/* ---------- Desktop ---------- */
+@media (min-width:760px){
+  :root{--gutter:40px}
+  .top .wrap{min-height:76px}
+  .brand b{font-size:24px}
+  .tel{font-size:20px}
+  section{padding:96px 0}
+  .hero-copy{padding-top:96px;padding-bottom:112px}
+  .promise{max-width:40ch}
+  .actions{grid-auto-flow:column;justify-content:start;width:auto}
+  .actions .btn{min-width:240px}
+  .shots{grid-template-columns:repeat(3,1fr);gap:20px}
+  .shots li:first-child{grid-column:auto}
+  .hero h1{max-width:14ch}
+}
+@media (min-width:1024px){
+  .crew .wrap{grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .crew figure{justify-self:end;width:100%}
+  .rows{grid-template-columns:1fr 1fr;column-gap:64px}
+  .rows li:nth-child(2){border-top:0}
+  .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
+  .ask .head{position:sticky;top:40px}
+  .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
+  .bigtel{margin-top:0}
+  .how .steps{grid-template-columns:repeat(3,1fr);gap:40px}
+  .steps b{font-size:22px}
+}
+/* hover styles only where there is a real pointer, so taps don't leave them stuck on */
+@media (hover:hover){
+.tel:hover{color:var(--red)}
+.btn-primary:hover{background:var(--yellow-2);border-color:var(--yellow-2)}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.row:hover .arrow,.fb:hover .arrow{background:var(--yellow);color:var(--ink)}
+input[type=text]:hover,textarea:hover{border-color:var(--focus)}
+.chips label:hover{border-color:var(--focus)}
+form .btn-primary:hover{outline:3px solid var(--focus);outline-offset:2px}
+.sent a:hover{color:var(--red)}
+.bigtel:hover{color:var(--yellow)}
+footer a:hover{color:var(--yellow)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rise,.float,.btn{transition:none}
+  .js .rise.below{opacity:1;transform:none}
+  .hero h1 .c{animation:none;opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!--
+THESIS: A bathroom renovation crew that sells on its number and its tagline: "CALL THE PROS", 718-400-WORK. The page says what they do, shows the two men in red shirts who'll turn up, and makes it easy to text or call.
+OWN-WORLD: Warm paper, the crew's shirt red (#9c1d1a, deepened) and deep navy (#172131) bands with the faint diagonal-line texture, hard-hat yellow (#ffc629) as the one accent (fills only; #8a5a00 when it has to be text on light). Cal Sans display, system body at 16/1.7.
+STORY: The visitor sees "Your new bathroom, built by the pros", meets the crew, sees what a bathroom job covers and what a finished one can look like, then texts or calls 718-400-WORK.
+FIRST VIEWPORT: Paper header with the wordmark left and 718-400-WORK top right. Red hero: eyebrow "Bathroom renovation", the H1, one promise line, two pill buttons (Plan my bathroom, Text us).
+FORM: calm band system; plain textured red hero because the only real photo (a square profile shot) can't fill a wide desktop band. No location anywhere (brief: do not publish one).
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Billy Proscia Renovations, back to top"><b>Billy Proscia</b><span>Renovations</span></a>
+    <a class="tel" href="tel:+17184009675" aria-label="Call 718-400-9675"><svg aria-hidden="true"><use href="#i-phone"/></svg>718-400-WORK</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero" aria-labelledby="h1">
+  <div class="wrap hero-copy">
+    <p class="eyebrow">Bathroom renovation</p>
+    <h1 id="h1">Your new bathroom, <span class="accent">built by the pros.</span></h1>
+    <p class="promise">We treat your home like our own, and leave you <b>a bathroom you're proud to show off.</b></p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#ask">Plan my bathroom</a>
+      <a class="btn btn-ghost" data-sms href="sms:+17184009675?&amp;body=Hi%20Billy%20Proscia%20Renovations%2C%20I%20found%20your%20website.%20I'm%20thinking%20about%20my%20bathroom%3A%20"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text us</a>
+    </div>
+  </div>
+</section>
+
+<section class="on-paper crew" aria-labelledby="h-crew">
+  <div class="wrap">
+    <div class="head rise">
+      <h2 id="h-crew">The crew at your door.</h2>
+      <p class="lede">A bathroom job means we're in your home for a while. We show up when we say we will, treat your house with respect, and haul the old bathroom away ourselves.</p>
+    </div>
+    <figure class="rise"><img src="img/crew.webp" width="480" height="600" alt="Two Billy Proscia Renovations crew members in red company shirts, standing by a full dumpster outside a job." loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="on-deep services" aria-labelledby="h-services">
+  <div class="wrap">
+    <h2 id="h-services" class="rise">What we <span class="accent">renovate.</span></h2>
+    <ul class="rows">
+      <li class="rise"><a class="row" href="#ask" data-job="Full remodel">Full bathroom remodels<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-job="Shower">Walk-in showers<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-job="Tub">Tubs and tub-to-shower<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-job="Tile">Tile floors and walls<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+      <li class="rise"><a class="row" href="#ask" data-job="Vanity">Vanities and fixtures<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="on-paper examples" aria-labelledby="h-ideas">
+  <div class="wrap">
+    <h2 id="h-ideas" class="rise">Ideas for your bathroom</h2>
+    <ul class="shots">
+      <li class="rise"><img src="img/idea-shower.webp" width="640" height="800" alt="Example: a glass walk-in shower with large white tile and grey hexagon floor." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-tub.webp" width="640" height="800" alt="Example: a white tub with green vertical tile and a wood floating vanity." loading="lazy" decoding="async"></li>
+      <li class="rise"><img src="img/idea-vanity.webp" width="640" height="800" alt="Example: a navy double vanity with white wall tile and a black-and-white patterned floor." loading="lazy" decoding="async"></li>
+    </ul>
+    <p class="note rise">Example photos to spark ideas. Our real jobs are on Facebook.</p>
+    <a class="fb rise" href="https://www.facebook.com/BillyBATS333/" rel="noopener">
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Click to see our work.</span>
+      <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<section class="on-deep how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how" class="rise">How it <span class="accent">works.</span></h2>
+    <ol class="steps">
+      <li class="rise"><div><b>Tell us about your bathroom.</b><span>What's there now and what you'd like instead.</span></div></li>
+      <li class="rise"><div><b>We come and see it.</b><span>We measure, talk it through with you, and give you a price.</span></div></li>
+      <li class="rise"><div><b>We build it and clean up.</b><span>You get the bathroom you picked, and the mess leaves with us.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="on-paper ask" id="ask" aria-labelledby="h-ask">
+  <div class="wrap">
+    <div class="head rise">
+      <p class="eyebrow">Winter is for inside jobs</p>
+      <h2 id="h-ask">Tell us about your bathroom</h2>
+      <p class="lede">Not sure what you want yet? That's fine. Tell us what's there now.</p>
+    </div>
+    <form id="bathForm" class="rise" novalidate>
+      <fieldset class="field" id="f-job" aria-describedby="e-job">
+        <legend>What are you thinking?</legend>
+        <div class="chips">
+          <input type="radio" name="job" id="j1" value="Full remodel"><label for="j1">Full remodel</label>
+          <input type="radio" name="job" id="j2" value="Shower"><label for="j2">Shower</label>
+          <input type="radio" name="job" id="j3" value="Tub"><label for="j3">Tub</label>
+          <input type="radio" name="job" id="j4" value="Tile"><label for="j4">Tile</label>
+          <input type="radio" name="job" id="j5" value="Vanity"><label for="j5">Vanity</label>
+          <input type="radio" name="job" id="j6" value="Not sure yet"><label for="j6">Not sure yet</label>
+        </div>
+        <p class="err" id="e-job">Pick the one that's closest.</p>
+      </fieldset>
+      <div class="field" id="f-name">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" autocomplete="name" maxlength="60" placeholder="First name is fine" aria-describedby="e-name">
+        <p class="err" id="e-name">Add your name so we know who's texting.</p>
+      </div>
+      <div class="field">
+        <label for="where">Your town <small>(optional)</small></label>
+        <input type="text" id="where" name="where" autocomplete="address-level2" maxlength="60">
+      </div>
+      <div class="field">
+        <label for="notes">Anything else? <small>(optional)</small></label>
+        <textarea id="notes" name="notes" maxlength="600" placeholder="Old tub out, walk-in shower in…"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text this to us</button>
+      <p class="sent" id="sent" role="status" hidden>Didn't open your messages? Call us at <a href="tel:+17184009675">718-400-9675</a>.</p>
+      <p class="after">Opens your messages with this written out.</p>
+    </form>
+  </div>
+</section>
+
+<section class="on-red close" aria-labelledby="h-close">
+  <div class="wrap">
+    <div class="rise">
+      <h2 id="h-close">Billy Proscia Renovations</h2>
+      <p class="who">Call the pros.</p>
+    </div>
+    <a class="bigtel rise" href="tel:+17184009675" aria-label="Call 718-400-9675"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>718-400-WORK<span class="digits">That's 718-400-9675</span></span></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Billy Proscia Renovations · Bathroom renovation · <span class="nw">718-400-9675</span></span>
+    <nav aria-label="Contact">
+      <a href="tel:+17184009675">Call 718-400-WORK</a>
+      <a href="https://www.facebook.com/BillyBATS333/" rel="noopener">Facebook</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="float" id="float" data-sms href="sms:+17184009675?&amp;body=Hi%20Billy%20Proscia%20Renovations%2C%20I%20found%20your%20website.%20I'm%20thinking%20about%20my%20bathroom%3A%20" aria-label="Text Billy Proscia Renovations"><svg aria-hidden="true"><use href="#i-chat"/></svg></a>
+
+<script>
+/* ===== Config ===== */
+var CONFIG = {
+  PHONE: '+17184009675',
+  GREETING: 'Hi Billy Proscia Renovations',
+  FLOAT: true  // the floating text circle; false removes it
+};
+document.documentElement.classList.add('js');
+
+/* ===== Hero H1 bounce-in: split into letters (JS only, so no-JS and reduced motion keep the plain heading) ===== */
+(function(){
+  var h=document.getElementById('h1');
+  if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var plain=h.innerHTML,i=0,last=null;
+  h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
+  function split(node,into){
+    [].slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===3){
+        n.textContent.split(/(\s+)/).forEach(function(part){
+          if(!part)return;
+          if(/^\s+$/.test(part)){into.appendChild(document.createTextNode(' '));return}
+          var w=document.createElement('span');w.className='w';w.setAttribute('aria-hidden','true');
+          for(var k=0;k<part.length;k++){var c=document.createElement('span');c.className='c';c.style.setProperty('--i',i++);c.textContent=part[k];w.appendChild(c);last=c}
+          into.appendChild(w);
+        });
+      }else if(n.nodeType===1){var copy=n.cloneNode(false);split(n,copy);into.appendChild(copy)}
+    });
+  }
+  var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);
+  // once the last letter lands, put the plain heading back so kerning and text selection return
+  if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+})();
+
+/* ===== Service rows pre-select the matching job in the form ===== */
+(function(){
+  [].forEach.call(document.querySelectorAll('[data-job]'),function(a){
+    a.addEventListener('click',function(){
+      var r=document.querySelector('input[name=job][value="'+a.getAttribute('data-job')+'"]');
+      if(r){r.checked=true;document.getElementById('f-job').classList.remove('bad')}
+    });
+  });
+})();
+
+/* ===== Quote form: composes a text to the crew ===== */
+(function(){
+  var form=document.getElementById('bathForm');if(!form)return;
+  function val(id){return document.getElementById(id).value.trim()}
+  form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&(e.target.type==='radio'||e.target.value.trim()))f.classList.remove('bad')});
+  form.addEventListener('change',function(e){if(e.target.name==='job')document.getElementById('f-job').classList.remove('bad')});
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var job=form.querySelector('input[name=job]:checked'),name=val('name'),where=val('where'),notes=val('notes');
+    document.getElementById('f-job').classList.toggle('bad',!job);
+    document.getElementById('f-name').classList.toggle('bad',!name);
+    document.getElementById('name').setAttribute('aria-invalid',name?'false':'true');
+    if(!job){document.getElementById('j1').focus();return}
+    if(!name){document.getElementById('name').focus();return}
+    var msg=CONFIG.GREETING+', this is '+name+'. I\'m thinking about my bathroom: '+job.value+'.';
+    if(where)msg+=' Town: '+where+'.';
+    if(notes)msg+=' '+notes;
+    location.href='sms:'+CONFIG.PHONE+'?&body='+encodeURIComponent(msg);
+    // if no messages app opened (desktop, some in-app browsers), say what to do instead
+    setTimeout(function(){document.getElementById('sent').hidden=false},900);
+  });
+})();
+
+/* ===== Floating text circle: shows after the hero, hides while the form is on screen ===== */
+(function(){
+  var fl=document.getElementById('float');if(!fl)return;
+  if(!CONFIG.FLOAT||!('IntersectionObserver' in window)){fl.remove();return}
+  var pastHero=false,formIn=false;
+  function sync(){var on=pastHero&&!formIn;fl.classList.toggle('on',on);fl.tabIndex=on?0:-1;fl.setAttribute('aria-hidden',on?'false':'true')}
+  new IntersectionObserver(function(es){pastHero=!es[0].isIntersecting;sync()},{threshold:.15}).observe(document.getElementById('hero'));
+  new IntersectionObserver(function(es){formIn=es[0].isIntersecting;sync()},{rootMargin:'-15% 0px -15% 0px'}).observe(document.getElementById('bathForm'));
+  sync();
+})();
+
+/* ===== Fade-up: everything is visible at rest; only what starts below the first screen rises 12px in ===== */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('below');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  [].forEach.call(document.querySelectorAll('.rise'),function(el){if(el.getBoundingClientRect().top>innerHeight){el.classList.add('below');io.observe(el)}});
+})();
+</script>
+</body>
+</html>
