@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T11:46:44+00:00",
+  "title": "Design System: Billy Proscia Renovations",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f6f5f2",
+        "oklch": "oklch(97.0% 0.004 91.4)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262523",
+          "#43423f",
+          "#62615f",
+          "#838280",
+          "#a6a5a2",
+          "#cac9c6",
+          "#efeeeb"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Plaster",
+        "canonical": "#ebe8e3",
+        "oklch": "oklch(93.2% 0.007 80.7)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#272521",
+          "#44423e",
+          "#63615d",
+          "#85827d",
+          "#a7a5a0",
+          "#ccc9c4",
+          "#f1eee9"
+        ]
+      },
+      "ink": {
+        "role": "tertiary",
+        "displayName": "Ink",
+        "canonical": "#172131",
+        "oklch": "oklch(24.6% 0.034 259.6)",
+        "tonalRamp": [
+          "#040b19",
+          "#1b2536",
+          "#374354",
+          "#566275",
+          "#778397",
+          "#99a6bb",
+          "#bccae0",
+          "#e7effc"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "#2b3442",
+        "oklch": "oklch(32.3% 0.028 259.1)",
+        "tonalRamp": [
+          "#050b17",
+          "#1d2533",
+          "#394351",
+          "#586271",
+          "#788393",
+          "#9ba6b7",
+          "#bfcadc",
+          "#e5effe"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "#4d5664",
+        "oklch": "oklch(45.1% 0.026 259.2)",
+        "tonalRamp": [
+          "#050b16",
+          "#1e2532",
+          "#3a4350",
+          "#596270",
+          "#798392",
+          "#9ca6b6",
+          "#bfcada",
+          "#e6effd"
+        ]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "Crew-Shirt Red",
+        "canonical": "#9c1d1a",
+        "oklch": "oklch(45.1% 0.163 27.7)",
+        "tonalRamp": [
+          "#1e0101",
+          "#4d0002",
+          "#800207",
+          "#aa2d27",
+          "#d25348",
+          "#fa776a",
+          "#fdb4aa",
+          "#fee9e6"
+        ]
+      },
+      "deep": {
+        "role": "tertiary",
+        "displayName": "Work-Van Navy",
+        "canonical": "#172131",
+        "oklch": "oklch(24.6% 0.034 259.6)",
+        "tonalRamp": [
+          "#040b19",
+          "#1b2536",
+          "#374354",
+          "#566275",
+          "#778397",
+          "#99a6bb",
+          "#bccae0",
+          "#e7effc"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On-Dark",
+        "canonical": "#fbf8f6",
+        "oklch": "oklch(98.1% 0.004 56.4)",
+        "tonalRamp": [
+          "#0d0b09",
+          "#272523",
+          "#444140",
+          "#63615f",
+          "#848280",
+          "#a7a4a2",
+          "#cbc8c6",
+          "#f1eeec"
+        ]
+      },
+      "on-red-soft": {
+        "role": "neutral",
+        "displayName": "Blush",
+        "canonical": "#f6dcd8",
+        "oklch": "oklch(91.5% 0.029 28.1)",
+        "tonalRamp": [
+          "#160605",
+          "#32201d",
+          "#513c39",
+          "#715b58",
+          "#937c79",
+          "#b79f9b",
+          "#dcc2bf",
+          "#ffe9e5"
+        ]
+      },
+      "on-deep-soft": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#cfd6e2",
+        "oklch": "oklch(87.4% 0.018 261.3)",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3d424c",
+          "#5b626c",
+          "#7c838e",
+          "#9fa5b1",
+          "#c3cad5",
+          "#e8effb"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Hard-Hat Yellow",
+        "canonical": "#ffc629",
+        "oklch": "oklch(85.5% 0.166 86.2)",
+        "tonalRamp": [
+          "#110a00",
+          "#302302",
+          "#543e02",
+          "#795d0d",
+          "#a27c0d",
+          "#cd9d08",
+          "#f9c01c",
+          "#feedc8"
+        ]
+      },
+      "yellow-2": {
+        "role": "secondary",
+        "displayName": "Lit Yellow",
+        "canonical": "#ffd65c",
+        "oklch": "oklch(88.9% 0.145 90.5)",
+        "tonalRamp": [
+          "#100a00",
+          "#2e2403",
+          "#514003",
+          "#775e01",
+          "#9e7e0f",
+          "#c8a00d",
+          "#edc548",
+          "#feeec1"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Red",
+        "canonical": "#9c1d1a",
+        "oklch": "oklch(45.1% 0.163 27.7)",
+        "tonalRamp": [
+          "#1e0101",
+          "#4d0002",
+          "#800207",
+          "#aa2d27",
+          "#d25348",
+          "#fa776a",
+          "#fdb4aa",
+          "#fee9e6"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "#b3261e",
+        "oklch": "oklch(50.1% 0.178 28.7)",
+        "tonalRamp": [
+          "#1e0101",
+          "#4d0001",
+          "#800203",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7363",
+          "#feb4a9",
+          "#fee9e6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; clamp(42px,7vw,96px) from 760px; letter bounce-in."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every section H2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows, link card, step titles (21-22px)."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Buttons, form labels and legends, header phone number, step numerals."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One supporting line under a section heading, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, inputs, chips, errors, footer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Notes, helper text, line under the form button."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-lift",
+        "value": "0 8px 24px rgba(23,33,49,.08)",
+        "purpose": "White link card on paper; static on hover."
+      },
+      {
+        "name": "float",
+        "value": "0 10px 28px rgba(23,33,49,.3)",
+        "purpose": "The fixed floating text circle only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger, from translateX(50px)",
+        "purpose": "Hero H1 bounce-in, letter by letter; waits up to 400ms for Cal Sans."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, from translateY(12px)",
+        "purpose": "Content that starts below the first screen, on entry."
+      },
+      {
+        "name": "float-in",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Floating circle slides up past the hero, away over the form."
+      },
+      {
+        "name": "state",
+        "value": ".2s (buttons, arrows), .15s (fields, chips)",
+        "purpose": "Colour and border state changes."
+      },
+      {
+        "name": "press",
+        "value": "transform scale(.98) .12s",
+        "purpose": "Button press."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs-max",
+        "value": "380px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "textures": [
+      {
+        "name": "band-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Red and navy bands, hero and footer only."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Yellow pill for the main action on any ground; Ink text.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Plan my bathroom</a>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn-primary{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}.ds-btn-primary:hover{background:var(--yellow-2);border-color:var(--yellow-2)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for the secondary action on red or navy bands only.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text us</a></div>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-band{background-color:var(--red);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);padding:24px}.ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(251,248,246,.75)}.ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}.ds-btn-ghost:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Plaster field inside the white form card; red border on hover and focus.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-card{background:var(--card);border-radius:24px;padding:24px;display:grid;gap:8px}.ds-label{font:400 18px/1.2 var(--display);color:var(--ink)}.ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;caret-color:var(--red);transition:border-color .15s}.ds-input::placeholder{color:var(--soft)}.ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Choice Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Single-choice radio chips; selected inverts to Ink.",
+      "html": "<div class=\"ds-chips\"><input type=\"radio\" name=\"dsj\" id=\"dsj1\" checked><label for=\"dsj1\">Full remodel</label><input type=\"radio\" name=\"dsj\" id=\"dsj2\"><label for=\"dsj2\">Shower</label><input type=\"radio\" name=\"dsj\" id=\"dsj3\"><label for=\"dsj3\">Not sure yet</label></div>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-chips{display:flex;flex-wrap:wrap;gap:10px;background:var(--card);padding:20px;border-radius:24px}.ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}.ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chips label:hover{border-color:var(--focus)}.ds-chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}.ds-chips input:checked+label{background:var(--ink);color:var(--on-dark)}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Paper header: two-line wordmark left, display-type phone number right.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>Billy Proscia</b><span>Renovations</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>718-400-WORK</a></header>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper);color:var(--ink)}.ds-brand{display:flex;flex-direction:column;text-decoration:none;color:inherit;line-height:1}.ds-brand b{font:400 20px/1 var(--display)}.ds-brand span{font:600 11px/1 var(--text);letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-top:5px}.ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 18px/1 var(--display);text-decoration:none;color:inherit}.ds-tel svg{color:var(--red)}.ds-tel:hover{color:var(--red)}.ds-tel:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Link row on textured navy; only the round arrow changes on hover/focus.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Walk-in showers<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\">Tile floors and walls<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-rows{list-style:none;margin:0;padding:8px 24px;background-color:var(--deep);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)}.ds-rows li+li{border-top:1px solid rgba(255,255,255,.12)}.ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:12px 0;text-decoration:none;color:var(--on-dark);font:400 24px/1.15 var(--display);outline:none}.ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s}.ds-row:hover .ds-arrow,.ds-row:focus-visible .ds-arrow{background:var(--yellow);color:var(--ink)}.ds-row:focus-visible .ds-arrow{outline:3px solid var(--yellow);outline-offset:3px}"
+    },
+    {
+      "name": "Numbered Step",
+      "kind": "custom",
+      "refersTo": "step-badge",
+      "description": "Yellow 48px numeral badge with a display-type step title on navy.",
+      "html": "<ol class=\"ds-steps\"><li><div><b>Tell us what you want.</b><span>What's there now and what you'd like instead.</span></div></li><li><div><b>We come and see it.</b><span>We measure, talk it through, and give you a price.</span></div></li></ol>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-steps{list-style:none;margin:0;padding:24px;display:grid;gap:24px;counter-reset:s;background-color:var(--deep);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);color:var(--on-deep-soft);font:16px/1.7 var(--text)}.ds-steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;counter-increment:s}.ds-steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--ink);font:400 20px/1 var(--display)}.ds-steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px}.ds-steps span{display:block;margin-top:4px}"
+    },
+    {
+      "name": "Link Card",
+      "kind": "card",
+      "refersTo": "link-card",
+      "description": "White card on paper with the only ambient card shadow; arrow fills yellow on hover.",
+      "html": "<div class=\"ds-paper\"><a class=\"ds-fb\" href=\"#\"><span>See our real jobs on Facebook</span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-paper{background:var(--paper);padding:24px}.ds-fb{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:24px;background:var(--card);color:var(--ink);text-decoration:none;font:400 21px/1.2 var(--display);max-width:520px;box-shadow:0 8px 24px rgba(23,33,49,.08);outline:none}.ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(23,33,49,.07);color:var(--ink);transition:background-color .2s}.ds-fb:hover .ds-arrow,.ds-fb:focus-visible .ds-arrow{background:var(--yellow)}.ds-fb:focus-visible .ds-arrow{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-text",
+      "description": "The single fixed yellow text button; slides in after the hero.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text us\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#f6f5f2;--card:#fff;--field:#ebe8e3;--ink:#172131;--soft:#4d5664;--red:#9c1d1a;--deep:#172131;--on-dark:#fbf8f6;--on-deep-soft:#cfd6e2;--yellow:#ffc629;--yellow-2:#ffd65c;--focus:#9c1d1a;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif}.ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--ink);box-shadow:0 10px 28px rgba(23,33,49,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)}.ds-float:hover{transform:translateY(-2px)}.ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Crew Shirt",
+    "overview": "The page is dressed like the two men who turn up at the door: shirt red, work-van navy, a hard-hat yellow that appears only where a hand should go. Full-width bands alternate between warm paper and the two dark colours, and the dark bands carry a faint diagonal line texture like a pressed work fabric. Nothing floats or layers; depth comes from the band changes, not from shadows.\n\nDensity is low and phone-first. Each band holds one heading, at most one supporting line, and one job (meet the crew, pick a service, see ideas, follow the steps, write the text, call). Type is a friendly rounded display face (Cal Sans) for everything a person would say out loud, including the phone number, set against a plain system body face for the reading text.\n\nMotion is a short sequence: the hero headline lands letter by letter with a slight overshoot, content below the first screen rises 12px into place, and a yellow text circle slides up once the hero is gone.",
+    "keyCharacteristics": [
+      "Paper, red and navy bands; yellow is a fill, never a surface.",
+      "Rounded, pill-shaped controls (999px) and soft 24px cards; no sharp corners on anything you touch.",
+      "Cal Sans at weight 400 for headings, buttons, labels, service rows and phone numbers.",
+      "Flat by default; two soft ambient shadows only.",
+      "Dark bands wear the diagonal-line texture; paper bands are plain."
+    ],
+    "rules": [
+      {
+        "name": "The Hard-Hat Rule",
+        "body": "Yellow is a fill or a mark on a dark ground. It never fills a band, never carries body text, and text sitting on it is always Ink. If yellow ever has to be text on a light ground, it drops to the darkened amber `#8a5a00` (5.4:1), not the raw yellow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Outline Rule",
+        "body": "Interactive outlines are 3px and offset. On light grounds they are Crew-Shirt Red; on red, navy, the hero and the footer they switch to Hard-Hat Yellow. Yellow never outlines a yellow fill on light ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Accent-Phrase Rule",
+        "body": "On red and navy bands, the last phrase of a heading may be set in yellow (\"built by the pros.\", \"renovate.\", \"works.\"). Paper-band headings stay all Ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Say-It-Out-Loud Rule",
+        "body": "Anything a person would speak (headings, button labels, service names, field questions, the phone number) is Cal Sans at 400. Anything they would read quietly (paragraphs, inputs, notes) is the system face. Cal Sans is never bolded.",
+        "section": "typography"
+      },
+      {
+        "name": "The Number-Is-the-Brand Rule",
+        "body": "The phone number is set as display type wherever it appears as a target: header (18-20px), close band (`clamp(34px,10vw,56px)`), with the plain digits under the vanity number in body type.",
+        "section": "typography"
+      },
+      {
+        "name": "The Band-Not-Shadow Rule",
+        "body": "A new section gets its separation from a band colour change, never from a shadow or a border box. Shadows are reserved for the two roles above.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** alternate full-bleed bands of Warm Paper, Crew-Shirt Red and Work-Van Navy, and put the diagonal line texture on the red and navy bands only.",
+      "**Do** keep text on yellow in Ink, and use the amber `#8a5a00` if yellow ever has to be text on a light ground.",
+      "**Do** set headings, buttons, labels, service names and the phone number in Cal Sans 400, and running text in the system face at 16px/1.7.",
+      "**Do** make every control at least 44px tall (buttons 56px, inputs 52px, chips 48px).",
+      "**Do** use pill radius (999px) for buttons and chips, 24px for cards and photos, 10px for inputs.",
+      "**Do** put hover styles inside a `(hover:hover)` query so taps don't leave them stuck on, and switch outlines from red to yellow on dark grounds.",
+      "**Do** honour reduced motion by disabling the bounce-in, the rise, the float slide and button transitions."
+    ],
+    "donts": [
+      "**Don't** fill a band, card or large surface with yellow; it is a fill for buttons, badges, the arrow state and the floating circle only.",
+      "**Don't** separate sections with shadows or bordered boxes; change the band colour instead.",
+      "**Don't** add a third shadow role or a hover shadow change on cards.",
+      "**Don't** bold Cal Sans.",
+      "**Don't** turn the floating text circle into a bottom bar or add a second floating control.",
+      "**Don't** add eyebrows to more headings."
+    ]
+  }
+}
